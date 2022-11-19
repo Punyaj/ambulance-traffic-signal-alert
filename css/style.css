@@ -3,7 +3,7 @@
 
 :root{
     --orange:#e67e22;
-    --blue:#273756;
+    --blue:#79DAE8;
     --black:#333;
     --light-color:#777;
     --border:.1rem solid rgba(0,0,0,.2);
@@ -140,7 +140,7 @@ section{
     width: 70%;
     height: 40px;
     border: none;
-    background-color: steelblue;
+    background-color: #0AA1DD;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -353,7 +353,7 @@ section{
 
 .banner{
     min-height: 100vh;
-    background:url(../images/banner.png) no-repeat;
+    background:url(../images/banner.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     display: grid;
@@ -483,7 +483,7 @@ text-decoration:underline;
 }
 
 .contact{
-    background:url(../images/banner.png) no-repeat;
+    background:url(../images/banner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
