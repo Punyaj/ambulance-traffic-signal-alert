@@ -438,13 +438,13 @@ section{
     /* letter-spacing: 0.15rem; */
 font-weight: 400;
 padding: 25px 0;
-text-decoration:underline;
+/* text-decoration:underline; */
 }
 
 .container .posts-container .post .text{
     color:black;
     font-weight: 300;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.7;
     padding:1rem 0;
     text-align: justify;
