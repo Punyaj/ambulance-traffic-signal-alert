@@ -3,7 +3,7 @@
 
 :root{
     --orange:#e67e22;
-    --blue:#79DAE8;
+    --blue:#0D4C92;
     --black:#333;
     --light-color:#777;
     --border:.1rem solid rgba(0,0,0,.2);
@@ -140,7 +140,7 @@ section{
     width: 70%;
     height: 40px;
     border: none;
-    background-color: #0AA1DD;
+    background-color:var(--blue);
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -231,7 +231,7 @@ section{
       top: -12%;
     }
   }
-  .credit {
+  .cblueit {
     font-size: 14px;
   }
 
@@ -353,12 +353,14 @@ section{
 
 .banner{
     min-height: 100vh;
-    background:url(../images/banner.jpeg) no-repeat;
+    width: auto;
+    height: 90%;
+    background:url(../images/ambulance-banner.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: grid;
     place-items: center;
-    padding-top: 8rem;
+    padding-left: 28rem;
 }
 
 .banner .content{
@@ -372,7 +374,7 @@ section{
 
 .banner .content h3{
     font-size: 4rem;
-    color:white;
+    color:black;
     text-transform: uppercase;
     font-family: 'Antonio', sans-serif;
     font-weight: 900;
@@ -533,14 +535,14 @@ text-decoration:underline;
     justify-content: space-between;
 }
 
-.footer .credit{
+.footer .cblueit{
     text-transform: capitalize;
     font-size: 2rem;
     color:var(--black);
     /* padding: 0.1rem 0; */
 }
 
-.footer .credit span{
+.footer .cblueit span{
     color:var(--blue);
 }
 
